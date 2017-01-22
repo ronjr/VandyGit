@@ -1,0 +1,37 @@
+/* BEGIN BOOTSTRAP MODIFICATIONS ---------------------------------------------------------------------- */
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+	margin-bottom: 20px;
+	border-radius: 0;
+}
+    
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+   
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #bdbdab;
+	padding: 5px;
+}
+
+
+
+/* END BOOTSTRAP MODIFICATIONS ------------------------------------------------------------------------ */
+
+
+
+
+/* BEGIN COHERE CLASSES ------------------------------------------------------------------------------- */
+
+.vandygit-header
+{
+	background-color: #bdbdab;
+}
+
+/* END COHERE CLASSES --------------------------------------------------------------------------------- */
+

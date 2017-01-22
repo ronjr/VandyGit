@@ -1,1 +1,25 @@
-TEST
+--------------------------
+ABOUT
+--------------------------
+
+PHP Project By Ron Shuff Jr.
+
+This project pulls "public" project details from GitHub that have a "Star Gazer Count" greater than or equal to 10000.  
+It can easily be modified to include more results and use authentication but since it is for test purposes only, it was 
+limited to keep queries efficient and under the limits imposed by GitHub.
+
+A public demo of this project is located at: vandygit.coheresoftware.com
+
+
+--------------------------
+INSTALLATION
+--------------------------
+
+Repository is located at: https://github.com/ronjr/VandyGit/tree/master/VandyGit
+
+Copy all files to your server and set your virtual host to the "www" folder.
+
+DATABASE: There are scripts in the folder VandyGit/DAL/DBUPDATES.  Please run these scripts in date and numerical order to setup your database. 
+You can name your databae whatever you would like.
+
+SETTINGS:  There is a file called setting.inc.php in the root folder.  Update any settings to match your environment.
